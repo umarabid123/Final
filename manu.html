@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            color: #000;
+            background-image: url(./IMAGES/pizza-4.jpg);
+            height: 300vh;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-repeat: repeat-x;
+            background-size: cover;
+            color: White !important;
+            object-position: center;
+        }
+
+        .main {
+            background: rgba(0, 0, 0, 0.8);
+            height: 300vh;
+        }
+
+        .nav-bar {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px 30px;
+        }
+
+        .nav-bar ul {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            /* border: 1px solid black; */
+            padding: 10px 0px;
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
+
+        .nav-bar ul li {
+            list-style: none;
+        }
+
+        .nav-bar ul a {
+            /* text-decoration: none; */
+            color: white !important;
+
+        }
+
+        .nav-bar ul a:hover {
+            text-decoration: underline;
+        }
+
+
+        .container h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .nav-bar img {
+            width: 40%;
+        }
+
+        .manu-item img {
+            width: 258px;
+            height: 200px;
+            border-radius: 4px;
+        }
+
+        .img-1 {
+            transition: transform 1s;
+        }
+
+        .img-1:hover {
+            transform: scale(1.1);
+        }
+
+        .img-2 {
+            transition: transform 1s;
+        }
+
+        .img-2:hover {
+            transform: scale(1.1);
+        }
+
+        .img-3 {
+            transition: transform 1s;
+        }
+
+        .img-3:hover {
+            transform: scale(1.1);
+        }
+
+        .manu-item h2 {
+            text-align: center;
+        }
+
+        .br {
+            border-bottom: 1px solid white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <nav>
+                <div class="nav-bar flex justify-between">
+                    <center>
+                        <h1
+                            style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif; font-weight: 800; font-size: 32px;">
+                            Umair Cuisine</h1>
+                    </center>
+                    <ul>
+                        <a href="index.html" target="_parent">
+                            <li>Home</li>
+                        </a>
+                        <a href="manu.html" target="_parent">
+                            <li>Menu</li>
+                        </a>
+                        <a href="about.html" target="_parent">
+                            <li>About</li>
+                        </a>
+                        <a href="timing.html">
+                            <li>Timing</li>
+                        </a>
+                        <a href="contact.html">
+                            <li>Contact Us</li>
+                        </a>
+                    </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <h1 class="text-[48px] font-[700]" style="font-style: italic;
+            font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 40px;">Our Menu</h1>
+            <div class="manu-item">
+                <h2 class="text-[32px] font-[700]" style="margin-bottom: 40px; font-style: italic;
+                font-family: Georgia, 'Times New Roman', Times, serif;">1.Burger</h2>
+                <center>
+                    <div class="img flex justify-center gap-6">
+                        <div class="img-1 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/burger-2.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-2 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/burger-3.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-3 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/burger.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <div class="manu-item">
+                <h2 class="text-[32px] font-[700]" style="margin-bottom: 40px; font-style: italic;
+                font-family: Georgia, 'Times New Roman', Times, serif; margin-top:40px ;">2.Pizza</h2>
+                <center>
+                    <div class="img flex justify-center gap-6">
+                        <div class="img-1 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/pizza-2.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-2 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/pizza-4.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-3 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/pizza-3.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+            <div class="manu-item mb-[40px]">
+                <h2 class="text-[32px] font-[700]" style="margin-bottom: 40px; font-style: italic;
+                font-family: Georgia, 'Times New Roman', Times, serif; margin-top: 40px;">3.Deals</h2>
+                <center>
+                    <div class="img flex justify-center gap-6">
+                        <div class="img-1 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/Deal.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-2 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/deal-2.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                        <div class="img-3 w-[20%] text-center" style="background-color: rgba(25, 31, 52, 0.7);">
+                            <img src="./IMAGES/pizza-3.jpg" alt="">
+                            <p
+                                style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  padding: 10px">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident sint impedit
+                                eum,
+                                sunt nam facere, quae ab eligendi aut mollitia ut dolorem.
+                            </p>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="br"></div>
+        <footer>
+            <p style="font-style:italic; font-family:Georgia, 'Times New Roman', Times, serif;  text-align: center; font-weight: 500;">Copyright © 2023 Umair's Cuisine</p>
+        </footer>
+</body>
+
+</html>
